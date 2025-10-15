@@ -171,7 +171,9 @@ This repository accompanies the paper:
 
 ## Contact
 
-For questions or issues, please open an issue on GitHub or contact [your contact information].
+For questions or issues, please open an issue on GitHub or connect via LinkedIn:
+- [B.D. Orr](https://www.linkedin.com/in/bronwyn-orr-30632262/)
+- [D. Pukallus](https://www.linkedin.com/in/doug-pukallus-39128547/)
 
 ## Acknowledgments
 
