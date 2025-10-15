@@ -1,0 +1,15 @@
+services:
+  valhalla:
+    image: ghcr.io/gis-ops/docker-valhalla/valhalla:latest
+    container_name: valhalla
+    ports:
+      - "8002:7002"
+    volumes:
+      - ./custom_files:/custom_files
+    environment:
+      - server_threads=8
+      - use_tiles_ignore_pbf=false
+      - build_elevation=false
+      - build_admins=true
+      - force_rebuild=false
+    restart: unless-stopped

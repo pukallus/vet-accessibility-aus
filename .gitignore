@@ -1,0 +1,62 @@
+# Python virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Environment files
+.env
+.env.local
+
+# Valhalla tiles and large data files
+valhalla/custom_files/valhalla_tiles/
+valhalla/custom_files/valhalla_tiles.tar
+valhalla/custom_files/*.pbf
+valhalla/custom_files/*.osm.pbf
+valhalla/pbf/
+valhalla/data/
+
+# GeoPackage and geospatial data files
+*.gpkg
+*.gpkg-shm
+*.gpkg-wal
+*.geojson
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+
+# Checkpoint files
+*.checkpoint.json
+
+# CSV data files (keep example files)
+*.csv
+!example-validation-format.csv
+
+# Logs
+*.log
+logs/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
