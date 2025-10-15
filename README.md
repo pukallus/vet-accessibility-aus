@@ -156,12 +156,12 @@ To replicate this analysis in another country:
 If you use this workflow in your research, please cite:
 
 ```
-[Your citation will go here once published]
+[Full paper citation once published]
 ```
 
 ## License
 
-[Specify your license - e.g., MIT, GPL-3.0, CC-BY-4.0]
+MIT
 
 ## Paper Reference
 
